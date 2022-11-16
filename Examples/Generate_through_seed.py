@@ -9,8 +9,6 @@ pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", 
 
 pipe = pipe.to("cuda")
 
-import torch
-
 
 def Generate_through_seed(Prompt,Seed_number):
   generator = torch.Generator("cuda").manual_seed(Seed_number)
