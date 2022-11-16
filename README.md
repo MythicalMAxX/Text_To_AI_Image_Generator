@@ -8,7 +8,7 @@ The code requires high usage of resources so it's not recommended to use these c
 
 Use this version of Colab to access the complete code.
 
-Colab Link:
-https://colab.research.google.com/drive/1NFBWpdwAkgSjt3BF9pOlMzWzRZdGEG4B?usp=sharing
+Colab [Link:]
+(https://colab.research.google.com/drive/1NFBWpdwAkgSjt3BF9pOlMzWzRZdGEG4B?usp=sharing)
 
 Note: Make a Copy of Notebook. Do not try to edit or use original Notebook.
