@@ -1,4 +1,14 @@
 from PIL import Image
+from huggingface_hub import notebook_login
+
+notebook_login()
+
+import torch
+from diffusers import StableDiffusionPipeline
+
+pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", revision="fp16", torch_dtype=torch.float16)
+
+pipe = pipe.to("cuda")
 
 
 def grid_images(imgs, rows, cols):
